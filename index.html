@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>Weather App</title>
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,25 +11,31 @@
 <body>
     <div class="wrapper">
         <header><i class='bx bx-left-arrow-alt'></i>Weather App</header>
+
+        <!-- Input Section -->
         <section class="input-part">
             <p class="info-txt"></p>
             <div class="content">
-                <input type="text" spellcheck="false" placeholder="Enter city name" required>
+                <input type="text" placeholder="Enter city name" required>
                 <div class="separator"></div>
                 <button>Get Device Location</button>
             </div>
         </section>
+
+        <!-- Weather Data Section -->
         <section class="weather-part">
-           <!-- <img src="" alt="Weather Icon"> -->
             <div class="temp">
                 <span class="numb">_</span>
                 <span class="deg">°</span>C
             </div>
+
             <div class="weather">_ _</div>
+
             <div class="location">
                 <i class='bx bx-map'></i>
                 <span>_, _</span>
             </div>
+
             <div class="bottom-details">
                 <div class="column feels">
                     <i class='bx bxs-thermometer'></i>
@@ -42,6 +47,7 @@
                         <p>Feels like</p>
                     </div>
                 </div>
+
                 <div class="column humidity">
                     <i class='bx bxs-droplet-half'></i>
                     <div class="details">
@@ -54,9 +60,7 @@
     </div>
 
     <script src="script.js"></script>
-
 </body>
+
 <footer>Made by Vijay Paswan</footer>
-</body>
-
 </html>
